@@ -1,2 +1,3 @@
 s=input()
-print(s[::-1])
+w=s.split()
+print(" ".join(w[::-1]))
