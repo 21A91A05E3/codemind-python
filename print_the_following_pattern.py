@@ -1,8 +1,8 @@
 n=int(input())
-k=ord("A")
-for i in range(n):
-    for j in range(n):
-        print(chr(k),end=" ")
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if(j==1 or j==i or j==n):
+            print("*",end=' ')
+        else:
+            print(" ",end=' ')
     print( )
-    k+=1
-        
