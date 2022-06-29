@@ -11,4 +11,3 @@ for i in l2:
     if i not in l1:
         c+=1
 print(c)
-        
