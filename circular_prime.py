@@ -19,5 +19,3 @@ if(c==2):
         print("prime but not a circular prime")
 else:
     print("not prime")
-        
-
