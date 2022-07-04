@@ -4,3 +4,4 @@ l=[]
 for i in w:
     l.append(len(i))
 print(min(l))
+    
