@@ -15,5 +15,5 @@ for i in w:
         if j in 'aeiouAEIOU':
             c+=1
     if(c==m):
-        vc+=1
+       vc+=1
 print(vc)
