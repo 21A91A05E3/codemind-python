@@ -10,4 +10,3 @@ if(pangram(s)):
     print("True")
 else:
     print("False")
-      
