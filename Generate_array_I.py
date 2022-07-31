@@ -5,4 +5,3 @@ for i in range(0,len(l),2):
     while(j):
         print(l[i],end=" ")
         j=j-1
-        
