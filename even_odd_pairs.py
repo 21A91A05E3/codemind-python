@@ -23,6 +23,3 @@ while(j<len(o)):
 if len(l1)%2!=0:
     l1.append("0")
 print(*l1)
-
-    
-    
