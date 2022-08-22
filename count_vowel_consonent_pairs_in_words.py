@@ -12,4 +12,3 @@ for i in range(len(w)):
             if r[i] in 'aeiouAEIOU':
                 c+=1
 print(c)
-
