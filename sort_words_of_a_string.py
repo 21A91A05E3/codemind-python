@@ -23,6 +23,3 @@ for i in w:
     r.append(l)
 for i in r:
     print(i,end=" ")
-
-
-    
