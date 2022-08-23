@@ -28,6 +28,4 @@ elif(abs(n-c)==abs(n-d)):
     print(c,d)
 else:
     print(c)
-            
-            
-    
+           
