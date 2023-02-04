@@ -1,12 +1,13 @@
-m,n=map(int,input().split())
-a=list(map(int,input().split()))
-b=list(map(int,input().split()))
-c=0
-for i in b:
-    if i in a:
-        if b.count(i)<=a.count(i):
-            c+=1
-if c==n:
-    print("Yes")
+a,b=map(int,input().split())
+l=list(map(int,input().split()))
+r=list(map(int,input().split()))
+for j in r:
+    if j in l:
+        x=l.index(j)
+        l[x]=-1
+    else:
+        print("No")
+        break
 else:
-    print("No")
+    print("Yes")
+        
